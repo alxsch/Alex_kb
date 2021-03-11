@@ -14,3 +14,4 @@ Linode [Securing your server](https://www.linode.com/docs/guides/securing-your-s
 [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
 [Micropython](https://docs.micropython.org/en/latest/index.html)
 
+[README](README.md)
