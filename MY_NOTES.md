@@ -1,5 +1,6 @@
-## Bash
-# Find all files and replace string in all files using sed
+# Bash
+
+## Find all files and replace string in all files using sed
 
 find . -type f -exec sed -i -e's/test/EXAMPLE/g' {} \;
 
@@ -75,8 +76,8 @@ integer1 -lt integer2 : integer1 is less than integer2
 integer1 -ne integer2 : integer1 is not equal to integer2
 
 -----
-## CP
-#Send file - scp
+# CP - Copy
+## Send file - scp
 
 scp fileNAME USER@SERVER:/home/USER/fileNAME
 
@@ -86,23 +87,28 @@ scp USER@SERVER:/home/USER/fileNAME /home/USER/fileNAME
 
 
 -----
-## Vim
+# Vim
+
 remove trailing spaces in VIM  pollpubproxy.pys/\s\+$//
 
 -----
-## Git
+# Git
+
 $ git commit -m "Something terribly misguided" # (0: Your Accident)
 $ git reset HEAD~                              # (1)
 [ edit files as necessary ]                    # (2)
 $ git add .                                    # (3)
 $ git commit -c ORIG_HEAD                      # (4)
-# Undo add
+
+## Undo add
+
 To undo git add before a commit, run git reset <file> or git reset to unstage all changes.
 tar "aschroeder$(date +%s)-$(hostname)" -zfX .fzf/ .cache/ .viminfo .sudo_as_admin_successful /home/aschroeder
 sudo dockerd --debug
 
 find /usr -type f | while read in ; do if file -i  | grep -q x-python ; then echo  ; fi ; done | wc -l
---------------------
+
+----
 # Docker
 
 ## Backup docker volume
@@ -127,5 +133,3 @@ docker pull linuxserver/docker-compose
 ## Remove zombie docker container
 
 sudo zfs create pool/data/docker/
-
-[README](README.md)

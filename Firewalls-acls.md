@@ -14,11 +14,10 @@ subject:
   - group:admins
   - [group:moderators, group:myspecialgroup]
 ```
-https://www.authelia.com/docs/configuration/access-control.html
+
+[Authelia: Access Contol](https://www.authelia.com/docs/configuration/access-control.html)
 
 Authelia
 Access Control
 Authelia is an open source multi-factor single sign-on portal for web applications
 But if you have a rule with say, domain, networks, and subject, each of those specific rules has to match for the overall rule to be a match
-
-[README](README.md)
