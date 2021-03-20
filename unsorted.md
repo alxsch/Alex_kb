@@ -8,7 +8,10 @@
 [Dotnet Docker](https://github.com/dotnet/dotnet-docker)
 [Gitea Matrix Theme](https://github.com/TylerByte666/gitea-matrix-template)
 [Theme.park app themes](https://github.com/gilbN/theme.park)
+[Authelia - Hackernews thread](https://news.ycombinator.com/item?id=26409820)
 
+## Linuxserver.io
+[Docker Mods](https://mods.linuxserver.io/)
 
 ## Internet
 
@@ -31,3 +34,5 @@ Linode [Securing your server](https://www.linode.com/docs/guides/securing-your-s
 ## Linux
 [Encryped Backup](https://www.gigenet.com/blog/linux-encryption-backup-tools/)
 
+## Docker
+[Jenkins-docker](https://www.jenkins.io/doc/book/pipeline/docker/)
