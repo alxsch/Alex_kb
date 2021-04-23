@@ -24,4 +24,4 @@ Access Control
 Authelia is an open source multi-factor single sign-on portal for web applications
 But if you have a rule with say, domain, networks, and subject, each of those specific rules has to match for the overall rule to be a match
 
-[Back to top](# -)
+[Back to top](#-)

@@ -56,7 +56,7 @@ integer1 -lt integer2 : integer1 is less than integer2
 
 integer1 -ne integer2 : integer1 is not equal to integer2
 
-[Back to top](# -)
+[Back to top](#-)
 
 -----
 # CP - Copy
@@ -69,7 +69,7 @@ scp fileNAME USER@SERVER:/home/USER/fileNAME
 scp USER@SERVER:/home/USER/fileNAME /home/USER/fileNAME
 
 
-[Back to top](# -)
+[Back to top](#-)
 -----
 # Vim
 
@@ -77,7 +77,7 @@ Remove trailing spaces in VIM
 ```
 :%s/\s+$//e
 ```
-[Back to top](# -)
+[Back to top](#-)
 -----
 # Git
 
@@ -96,7 +96,7 @@ sudo dockerd --debug
 find /usr -type f | while read in ; do if file -i  | grep -q x-python ; then echo  ; fi ; done | wc -l
 
 
-[Back to top](# -)
+[Back to top](#-)
 ----
 # Docker
 
@@ -132,7 +132,7 @@ sudo /etc/init.d/docker start
 ```
 [Docker - top](# Docker)
 
-[Back to top](# -)
+[Back to top](#-)
 
 ## Docker-Compose
 
@@ -146,4 +146,4 @@ UMASK: 0000
 user: "1000:1000"
 
 [Docker-Compose top](## Docker-Compose)
-[Back to top](# -)
+[Back to top](#-)
