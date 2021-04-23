@@ -1,3 +1,4 @@
+# -
 # Bash
 
 ## Find all files and replace string in all files using sed
@@ -15,31 +16,11 @@ file1 -nt file2 : file1 is newer (modification date) than file2
 
 file1 -ot file2 : file1 is older than file2
 
--b file : file exists and is block special
-
--c file : file exists and is character special
-
 -d file : file exists and is a directory
 
 -e file : file exists
 
 -f file : file exists and is a regular file
-
--g file : file exists and is set-group-ID
-
--G file : file exists and is owned by the effective group ID
-
--h file : file exists and is a symbolic link (same as -L)
-
--k file : file exists and has its sticky bit set
-
--L file : file exists and is a symbolic link (same as -h)
-
--O file : file exists and is owned by the effective user ID
-
--p file : file exists and is a named pipe
-
--r file : file exists and read permission is granted
 
 -s file : file exists and has a size greater than zero
 
@@ -75,6 +56,8 @@ integer1 -lt integer2 : integer1 is less than integer2
 
 integer1 -ne integer2 : integer1 is not equal to integer2
 
+[Back to top](# -)
+
 -----
 # CP - Copy
 ## Send file - scp
@@ -86,11 +69,15 @@ scp fileNAME USER@SERVER:/home/USER/fileNAME
 scp USER@SERVER:/home/USER/fileNAME /home/USER/fileNAME
 
 
+[Back to top](# -)
 -----
 # Vim
 
-remove trailing spaces in VIM  pollpubproxy.pys/\s\+$//
-
+Remove trailing spaces in VIM
+```
+:%s/\s+$//e
+```
+[Back to top](# -)
 -----
 # Git
 
@@ -108,6 +95,8 @@ sudo dockerd --debug
 
 find /usr -type f | while read in ; do if file -i  | grep -q x-python ; then echo  ; fi ; done | wc -l
 
+
+[Back to top](# -)
 ----
 # Docker
 
@@ -141,3 +130,20 @@ sudo rm -r /var/lib/docker/containers/5c25b81e541fef4fbaee89debe3bc812f1db578489
 ...etc...
 sudo /etc/init.d/docker start
 ```
+[Docker - top](# Docker)
+
+[Back to top](# -)
+
+## Docker-Compose
+
+#You may optionally set a user / group id using environment variables if your Docker version or NAS does not
+support this natively
+
+UID: 1000
+GID: 1000
+UMASK: 0000
+#Uncomment and edit the following line to set a specific user / group id (native):
+user: "1000:1000"
+
+[Docker-Compose top](## Docker-Compose)
+[Back to top](# -)

@@ -1,3 +1,4 @@
+# -
 # Alex's pile of mostly unsorted links and snippets (for now)
 
 ## Unsorted
@@ -12,6 +13,9 @@
 
 ## Linuxserver.io
 [Docker Mods](https://mods.linuxserver.io/)
+
+## General Docker
+[Watchtower container](https://chriswiegman.com/2019/12/keeping-docker-containers-updated/)
 
 ## Internet
 
@@ -36,3 +40,5 @@ Linode [Securing your server](https://www.linode.com/docs/guides/securing-your-s
 
 ## Docker
 [Jenkins-docker](https://www.jenkins.io/doc/book/pipeline/docker/)
+
+[Back to top](# -)
