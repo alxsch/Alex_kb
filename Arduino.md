@@ -1,6 +1,6 @@
 #  Installing an Arduino Bootloader
 
-| AVR Programmer | Arduino as ISP | 2x3 ICSP Header | ATmega328 | ATmega2560 | ATmega32U4 |
+| AVR Programmer | Arduino as ISP*| 2x3 ICSP Header | ATmega328 | ATmega2560 | ATmega32U4 |
 |----------------|----------------|-----------------|-----------|------------|------------|
 | 5V             | Vcc/5V         | Pin 2           | Vcc       | Vcc        | Vcc        |
 | GND            | GND            | Pin 6           | GND       | GND        | GND        |
