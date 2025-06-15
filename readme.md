@@ -4,11 +4,11 @@ My digital notebook/scrapbook
 
 [Unsorted.md](unsorted.md)
 
-[MY_NOTES.md](MY_NOTES.md)
+[My_notes.md](my_notes.md)
 
-[Firewall - ACLs](Firewalls-acls.md)
+[Firewall - ACLs](firewalls-acls.md)
 
-[Arduino](Arduino.md)
+[Arduino](arduino.md)
 
 
 ### Find Linux Drives
