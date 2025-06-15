@@ -12,20 +12,20 @@ My digital notebook/scrapbook
 
 [Back to top](#-)
 
-Mount Linux Drive via wsl
+## Mount Linux Drive via wsl
 
-Find Linux Drives
+### Find Linux Drives
 
-GET-CimInstance -query "SELECT * from Win32_DiskDrive"
+```GET-CimInstance -query "SELECT * from Win32_DiskDrive"```
 
-Mount it
+### Mount it
 
-wsl --mount \\.\PHYSICALDRIVE(number) --partition (usually the last one)
+```wsl --mount \\.\PHYSICALDRIVE(number) --partition (usually the last one)```
 
-Location
+### Location
 
-\\wsl.localhost\DISTRO\mnt\wsl
+```\\wsl.localhost\DISTRO\mnt\wsl```
 
-And unmount
+### And unmount
 
-wsl --umount \\.\PHYSICALDRIVE(number) --partition (usually the last one)
+```wsl --umount \\.\PHYSICALDRIVE(number) --partition (usually the last one)```
