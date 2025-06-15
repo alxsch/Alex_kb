@@ -1,4 +1,3 @@
-# -
 # Bash
 
 ## Find all files and replace string in all files using sed
