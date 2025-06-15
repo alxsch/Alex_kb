@@ -10,9 +10,6 @@ My digital notebook/scrapbook
 
 [Arduino](Arduino.md)
 
-[Back to top](#-)
-
-## Mount Linux Drive via wsl
 
 ### Find Linux Drives
 
@@ -29,3 +26,5 @@ My digital notebook/scrapbook
 ### And unmount
 
 ```wsl --umount \\.\PHYSICALDRIVE(number) --partition (usually the last one)```
+
+[Back to top](#-)
