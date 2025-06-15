@@ -11,7 +11,7 @@ if sucessfull/true^
 
 file1 -ef file2 : file1 and file2 have the same device and inode numbers
 
-file1 -nt file2 : file1 is newer (modification date) than file2
+file0 -nt file2 : file1 is newer (modification date) than file2
 
 file1 -ot file2 : file1 is older than file2
 
@@ -120,17 +120,6 @@ Update docker-compose image
 
 docker pull linuxserver/docker-compose
 
-## Remove zombie docker container
-
-```
-$ sudo /etc/init.d/docker stop
-$ sudo ls /var/lib/docker/containers
-05aee7dfa27a3501d0fce4397a8c457327987ab42560377c05fe4a0d9cc47c12  aa29a5fdb4d5925d3bc83dabdf1009495ae3a919c515cf1e21e5752bcced0277
-...
-sudo rm -r /var/lib/docker/containers/5c25b81e541fef4fbaee89debe3bc812f1db57848977ec41fd9261191d47e708
-...etc...
-sudo /etc/init.d/docker start
-```
 [Docker - top](# Docker)
 
 [Back to top](#-)
