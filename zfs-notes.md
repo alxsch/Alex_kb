@@ -1,5 +1,6 @@
 Inv by serial - ie: WCC6N------- 
-find serials etched into the side of the drive or using /dev/disk/by-id/ata-***
+
+Find serials etched into the side of the drive or using /dev/disk/by-id/ata-***
 
 First
 
@@ -19,7 +20,7 @@ zpool replace main-pool /dev/disk/by-id/ata*** /dev/disk/by-id/ata-***
 Third
 
 ```
-Check rsilvering
+Check silvering
 
 zpool status
 
