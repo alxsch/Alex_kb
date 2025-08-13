@@ -5,13 +5,15 @@ First
 
 ```
                         Old Drive               New Drive
-zpool offline main-pool /dev/disk/by-id/ata-*** /dev/disk/by-id/ata-***```
+zpool offline main-pool /dev/disk/by-id/ata-*** /dev/disk/by-id/ata-***
+```
 
 Second
 
 ```
                         New Drive              Old Drive
-zpool replace main-pool /dev/disk/by-id/ata*** /dev/disk/by-id/ata-***```
+zpool replace main-pool /dev/disk/by-id/ata*** /dev/disk/by-id/ata-***
+```
 
 
 Third
